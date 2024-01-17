@@ -145,6 +145,18 @@ nav ul li{
 .main{
     margin-bottom: 50px;
 }
+/*----self------*/
+.self{
+    display: flex;
+    margin-bottom: 35px;
+}
+.self div h1{
+    margin-left: 38px;
+    margin-top: 45px;
+}
+.self img{
+    width: 600px;
+}
 /* ----------- */
 .destination h1{
    margin-bottom: 30px;
@@ -391,6 +403,21 @@ text-align: center;
     .chooch-img-bg-3{
         width: 89%;
     }
+    /*--------*/
+    .self{
+      flex-direction: column;
+      padding: 30px;
+    }
+    .self div h1{
+        font-size: 45px;
+    }
+    .self div p{
+        font-size: 25px;
+    }
+    .self img{
+       width: 100%;
+
+    }
 
     /*----------*/
     .newsletter{
@@ -427,7 +454,9 @@ text-align: center;
         margin-bottom: 80px;
         
     }
-    
+    /*------*/
+    .footer p{
+        font-size: 25px;
 
     
 
