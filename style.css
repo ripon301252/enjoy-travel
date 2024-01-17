@@ -312,10 +312,15 @@ text-align: center;
     text-align: center;
     padding: 0 168px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .color{
     background-color: #eed7d7;
+    padding: 20px 0;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
 }
 .social-title{
     padding: 0 445px;
