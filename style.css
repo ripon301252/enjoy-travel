@@ -14,14 +14,14 @@ body{
 }
 
 .banner{
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 80px;
     margin-bottom: 50px;
     background: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.8)),  url(img/banner.png) no-repeat center top /cover;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 nav{
@@ -146,6 +146,7 @@ nav ul li{
     margin-bottom: 50px;
 }
 /*----self------*/
+
 .self{
     display: flex;
     margin-bottom: 35px;
@@ -157,6 +158,7 @@ nav ul li{
 .self img{
     width: 600px;
 }
+
 /* ----------- */
 .destination h1{
    margin-bottom: 30px;
@@ -208,13 +210,6 @@ text-align: center;
     margin-top: 20px;
     text-align: center;
     margin-bottom: 35px;
-}
-.social-title{
-    padding: 0 445px;
-    margin-bottom: 50px;
-}
-.social{
-    margin-left: 20px;
 }
 
 .chooch-img-bg-1{
@@ -322,6 +317,7 @@ text-align: center;
     margin-right: 180px;
     margin-bottom: 50px;
 }
+
 .social-title{
     padding: 0 445px;
     margin-bottom: 50px;
@@ -338,6 +334,7 @@ text-align: center;
 
 
 
+
 /*-- Rsponsiv */
 @media screen and (max-width: 600px){
     .nav{
@@ -345,6 +342,13 @@ text-align: center;
     }
     .nav ul{
         display: none;
+    }
+    .banner h1{
+        font-size: 60px;
+    }
+
+    .banner p{
+        font-size: 28px;
     }
     .logo{
         font-size: 25px;
@@ -386,6 +390,21 @@ text-align: center;
        flex-direction: column;
        width: 100%;
     }
+    /*--------*/
+    .self{
+      flex-direction: column;
+      padding: 30px;
+    }
+    .self div h1{
+        font-size: 45px;
+    }
+    .self div p{
+        font-size: 25px;
+    }
+    .self img{
+       width: 100%;
+
+    }
 
     /*Destination*/
     .dest-img-1{
@@ -394,12 +413,12 @@ text-align: center;
         padding: 20px;
     }
     .destination h1{
-        font-size: 45px;
+        font-size: 50px;
      }
      
      .destination p{
         padding: 20px;
-         font-size: 25px; 
+        font-size: 28px; 
      }
 
      .dest-img-2{
@@ -420,21 +439,6 @@ text-align: center;
     }
     .chooch-img-bg-3{
         width: 89%;
-    }
-    /*--------*/
-    .self{
-      flex-direction: column;
-      padding: 30px;
-    }
-    .self div h1{
-        font-size: 45px;
-    }
-    .self div p{
-        font-size: 25px;
-    }
-    .self img{
-       width: 100%;
-
     }
 
     /*----------*/
@@ -472,9 +476,14 @@ text-align: center;
         margin-bottom: 80px;
         
     }
+
     /*------*/
     .footer p{
         font-size: 25px;
+        
+    }
+    
+    
 
     
 
