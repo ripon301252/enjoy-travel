@@ -317,7 +317,13 @@ text-align: center;
 .color{
     background-color: #eed7d7;
 }
-
+.social-title{
+    padding: 0 445px;
+    margin-bottom: 50px;
+}
+.social{
+    margin-left: 20px;
+}
 
 
 
